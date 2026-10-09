@@ -1,0 +1,65 @@
+PROJECT 09 - INTEGRATED BUILD TEST RESULTS
+Date: 2026-09-23
+Environment: Linux, Python 3.12.14
+
+LATEST REGRESSION - 2026-09-26
+- Dashboard, back navigation, interactive scenarios and three-page PDF included.
+- Empty AI extractions no longer overwrite the draft or move to the review step;
+  Google AI Studio keys are identified before any OpenAI request.
+- python -m pytest -q: 459 passed, 0 failed (7.71 s).
+- 57 installed packages compatible; Streamlit headless health endpoint: ok.
+
+SOURCE SELECTION
+- Person 1: Project_09_Person_1.zip
+- Person 2: Project_09_Person_2_FIXED.zip
+- Person 3: Project_09_Nguoi_3.zip
+- Person 4: Project_09_Nguoi_4_Hoan_Chinh (1).zip
+- Person 5: Project_09_Nguoi_5_Hoan_Chinh.zip
+
+COMPATIBILITY
+- Person 1 schemas.py matched the reference copies used by People 3 and 4.
+- Person 2 FIXED calculations.py matched the reference copies used by People 3 and 4.
+- Person 3 scenarios.py and scenario_defaults.json matched the reference copies used by Person 4.
+- No owner source file needed to be overwritten by another member's demo copy.
+
+FULL TEST COMMAND
+python -m pytest -q
+
+RESULT
+443 passed, 0 failed, 0 skipped.
+
+INTEGRATION COVERAGE
+- P001 valid profile: validation -> scenarios -> explanation -> confirmed PDF.
+- P009 missing goal horizon: blocked before calculation and reporting.
+- P019 stress case: baseline 130,000,000 VND; stressed 118,000,000 VND;
+  delay 3 months versus baseline and 1 month beyond the original deadline.
+- Streamlit app imports and initial page render without an API key.
+- Final scenario assumptions are revalidated before Person 5 receives them.
+- Report inputs use the current base scenario calculation, not a cached result.
+
+SERVER SMOKE
+- Streamlit started successfully in headless mode.
+- Local HTTP endpoint returned successfully before shutdown.
+
+DEPENDENCIES
+- Dependencies were merged into one requirements.txt.
+- Tests were rerun with pandas 3.0.5 and plotly 6.9.0.
+- python -m pip check: no broken requirements found.
+
+LIMITS
+- No live OpenAI API call was made. Offline/manual flows and mocked provider
+  behavior are covered, but live extraction and explanation metrics remain pending.
+- Dashboard styling and PDF presentation are integrated. Manual responsive
+  review on the group's target browsers remains the final visual check.
+
+LATEST UI/DATA UPDATE - 2026-09-24
+- Added a dated, offline market-reference snapshot: Vietcombank 12-month VND
+  deposit reference 5.90%/year and August 2026 CPI 4.89% YoY via Vnstock Macro,
+  cross-checked against Vietnam's National Statistics Office.
+- Reduced integrated confirmations to one data-review checkbox plus the final
+  PDF confirmation. Scenario changes recalculate automatically.
+- Reworked process icons, typography and Plotly chart presentation.
+- Current environment verification: compileall, all-Python AST parse, CSS brace
+  balance, reference parser, validation and scenario calculations passed for
+  P001/P019. Streamlit/Plotly/pytest are unavailable here, so the 443/447 runtime
+  results documented elsewhere were not rerun for this latest presentation pass.

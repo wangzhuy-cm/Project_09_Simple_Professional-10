@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "description": "Educational simulation assumptions; not market rates or guaranteed returns. All rate changes below are percentage-point changes expressed as annual decimals.",
+  "limits": {
+    "min_annual_return_rate": -0.05,
+    "max_annual_return_rate_by_risk": {"low": 0.06, "medium": 0.08, "high": 0.10},
+    "min_annual_inflation_rate": 0.0,
+    "max_annual_inflation_rate": 0.15,
+    "max_projection_months": 1200
+  },
+  "scenarios": {
+    "conservative": {
+      "label": "Thận trọng",
+      "income_multiplier": 0.95,
+      "discretionary_expense_multiplier": 1.05,
+      "contribution_multiplier": 0.90,
+      "annual_return_rate_offset": -0.01
+    },
+    "base": {
+      "label": "Cơ sở",
+      "income_multiplier": 1.0,
+      "discretionary_expense_multiplier": 1.0,
+      "contribution_multiplier": 1.0,
+      "annual_return_rate_offset": 0.0
+    },
+    "optimistic": {
+      "label": "Tích cực",
+      "income_multiplier": 1.05,
+      "discretionary_expense_multiplier": 0.95,
+      "contribution_multiplier": 1.10,
+      "annual_return_rate_offset": 0.01
+    }
+  },
+  "stress_defaults": {
+    "income_reduction_rate": 0.20,
+    "start_month": 1,
+    "duration_months": 3
+  }
+}

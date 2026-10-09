@@ -1,0 +1,17 @@
+{
+  "user_id": "P001",
+  "monthly_primary_income": 8000000,
+  "monthly_other_income": 2000000,
+  "monthly_essential_expense": 5000000,
+  "monthly_discretionary_expense": 2000000,
+  "monthly_debt_payment": 0,
+  "current_savings": 15000000,
+  "emergency_fund_reserved": 5000000,
+  "goal_name": "Học cao học",
+  "goal_amount": 100000000,
+  "goal_horizon_months": 36,
+  "risk_tolerance": "low",
+  "liquidity_need": "medium",
+  "expected_income_growth": 0.05,
+  "notes": null
+}

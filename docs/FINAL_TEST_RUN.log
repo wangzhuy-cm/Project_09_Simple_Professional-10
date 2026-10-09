@@ -1,0 +1,18 @@
+Python 3.12.14
+Streamlit 1.64.0
+Dependency check: 57 packages compatible
+........................................................................ [ 15%]
+........................................................................ [ 31%]
+........................................................................ [ 47%]
+........................................................................ [ 62%]
+........................................................................ [ 78%]
+........................................................................ [ 94%]
+...........................                                              [100%]
+459 passed in 7.71s
+Report dashboard smoke: 3 Plotly charts, 1 collapsed detail section, 3-step export flow, PDF download ready
+CSS check: 414 balanced rule blocks; system sans-serif stack, no Google Fonts
+PDF visual QA: P001/P019 exactly 3 A4 pages; no blank or clipped page
+User copy QA: internal processing notes hidden from the main workflow
+AI extraction QA: empty profiles are not saved; Google AI Studio keys are rejected before request
+Plan layout smoke: 2 tool tabs, 2 collapsed detail sections, default scenario = base, 0 exceptions
+HTTP smoke: /_stcore/health = ok

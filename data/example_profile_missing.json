@@ -1,0 +1,17 @@
+{
+  "user_id": "P009",
+  "monthly_primary_income": 10000000,
+  "monthly_other_income": 2000000,
+  "monthly_essential_expense": 7000000,
+  "monthly_discretionary_expense": 2000000,
+  "monthly_debt_payment": 0,
+  "current_savings": 12000000,
+  "emergency_fund_reserved": 8000000,
+  "goal_name": "Du lịch",
+  "goal_amount": 80000000,
+  "goal_horizon_months": null,
+  "risk_tolerance": "low",
+  "liquidity_need": "medium",
+  "expected_income_growth": 0.04,
+  "notes": "Chưa xác định thời hạn mục tiêu."
+}

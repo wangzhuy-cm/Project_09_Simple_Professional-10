@@ -1,0 +1,1969 @@
+{
+  "profile": {
+    "user_id": "P019",
+    "monthly_primary_income": 18000000,
+    "monthly_other_income": 2000000,
+    "monthly_essential_expense": 11000000,
+    "monthly_discretionary_expense": 3000000,
+    "monthly_debt_payment": 1000000,
+    "current_savings": 30000000,
+    "emergency_fund_reserved": 20000000,
+    "goal_name": "Học cao học",
+    "goal_amount": 120000000,
+    "goal_horizon_months": 24,
+    "risk_tolerance": "medium",
+    "liquidity_need": "medium",
+    "expected_income_growth": 0.06,
+    "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."
+  },
+  "calculation_result": {
+    "total_monthly_income": 20000000.0,
+    "total_monthly_outflow": 15000000.0,
+    "monthly_surplus": 5000000.0,
+    "savings_rate": 0.25,
+    "initial_available_amount": 10000000.0,
+    "monthly_contribution": 5000000.0,
+    "contribution_source": "non_negative_monthly_surplus",
+    "affordable_monthly_contribution": 5000000.0,
+    "contribution_affordability_gap": 0.0,
+    "annual_return_rate": 0.0,
+    "monthly_return_rate": 0.0,
+    "annual_inflation_rate": 0.0,
+    "monthly_inflation_rate": 0.0,
+    "nominal_goal_amount": 120000000.0,
+    "adjusted_goal_amount": 120000000.0,
+    "goal_horizon_months": 24,
+    "fv_initial": 10000000.0,
+    "fv_contribution": 120000000.0,
+    "fv_total": 130000000.0,
+    "goal_gap": -10000000.0,
+    "goal_reached_by_horizon": true,
+    "required_monthly_contribution": 4583333.333333333,
+    "required_contribution_gap": 0.0,
+    "estimated_month_to_goal": 22,
+    "calculation_warnings": [],
+    "assumptions_used": {
+      "contribution_timing": "end_of_month",
+      "return_rate_basis": "annual_effective_converted_to_monthly_effective",
+      "inflation_enabled": false,
+      "taxes_and_fees_included": false
+    }
+  },
+  "validation_result": {
+    "status": "VALID",
+    "errors": [],
+    "warnings": [],
+    "missing_fields": [],
+    "clarification_questions": [],
+    "can_simulate": true
+  },
+  "scenario_result": {
+    "scenarios": {
+      "conservative": {
+        "scenario_name": "conservative",
+        "label": "Thận trọng",
+        "profile_used": {
+          "user_id": "P019",
+          "monthly_primary_income": 17100000.0,
+          "monthly_other_income": 1900000.0,
+          "monthly_essential_expense": 11000000.0,
+          "monthly_discretionary_expense": 3150000.0,
+          "monthly_debt_payment": 1000000.0,
+          "current_savings": 30000000.0,
+          "emergency_fund_reserved": 20000000.0,
+          "goal_name": "Học cao học",
+          "goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "risk_tolerance": "medium",
+          "liquidity_need": "medium",
+          "expected_income_growth": 0.06,
+          "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."
+        },
+        "assumptions": {
+          "annual_return_rate": -0.01,
+          "monthly_contribution": 3465000.0
+        },
+        "calculation_result": {
+          "total_monthly_income": 19000000.0,
+          "total_monthly_outflow": 15150000.0,
+          "monthly_surplus": 3850000.0,
+          "savings_rate": 0.2026315789473684,
+          "initial_available_amount": 10000000.0,
+          "monthly_contribution": 3465000.0,
+          "contribution_source": "assumption",
+          "affordable_monthly_contribution": 3850000.0,
+          "contribution_affordability_gap": 0.0,
+          "annual_return_rate": -0.01,
+          "monthly_return_rate": -0.0008371773591205889,
+          "annual_inflation_rate": 0.0,
+          "monthly_inflation_rate": 0.0,
+          "nominal_goal_amount": 120000000.0,
+          "adjusted_goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "fv_initial": 9800999.999999993,
+          "fv_contribution": 82364267.55787383,
+          "fv_total": 92165267.55787382,
+          "goal_gap": 27834732.442126185,
+          "goal_reached_by_horizon": false,
+          "required_monthly_contribution": 4635985.316468671,
+          "required_contribution_gap": 785985.316468671,
+          "estimated_month_to_goal": 33,
+          "calculation_warnings": [
+            "required_monthly_contribution_exceeds_current_surplus"
+          ],
+          "assumptions_used": {
+            "contribution_timing": "end_of_month",
+            "return_rate_basis": "annual_effective_converted_to_monthly_effective",
+            "inflation_enabled": false,
+            "taxes_and_fees_included": false
+          }
+        },
+        "monthly_projection": [
+          {
+            "month": 0,
+            "balance": 10000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 0.0,
+            "cumulative_contributions": 0.0
+          },
+          {
+            "month": 1,
+            "balance": 13456628.226408795,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 3465000.0
+          },
+          {
+            "month": 2,
+            "balance": 16910362.641927537,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 6930000.0
+          },
+          {
+            "month": 3,
+            "balance": 20361205.669189207,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 10395000.0
+          },
+          {
+            "month": 4,
+            "balance": 23809159.728798363,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 13860000.0
+          },
+          {
+            "month": 5,
+            "balance": 27254227.239333883,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 17325000.0
+          },
+          {
+            "month": 6,
+            "balance": 30696410.617348973,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 20790000.0
+          },
+          {
+            "month": 7,
+            "balance": 34135712.277373925,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 24255000.0
+          },
+          {
+            "month": 8,
+            "balance": 37572134.63191747,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 27720000.0
+          },
+          {
+            "month": 9,
+            "balance": 41005680.09147,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 31185000.0
+          },
+          {
+            "month": 10,
+            "balance": 44436351.064502224,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 34650000.0
+          },
+          {
+            "month": 11,
+            "balance": 47864149.957468756,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 38115000.0
+          },
+          {
+            "month": 12,
+            "balance": 51289079.17481093,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 41580000.0
+          },
+          {
+            "month": 13,
+            "balance": 54711141.11895545,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 45045000.0
+          },
+          {
+            "month": 14,
+            "balance": 58130338.190319315,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 48510000.0
+          },
+          {
+            "month": 15,
+            "balance": 61546672.78730813,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 51975000.0
+          },
+          {
+            "month": 16,
+            "balance": 64960147.306321494,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 55440000.0
+          },
+          {
+            "month": 17,
+            "balance": 68370764.14175169,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 58905000.0
+          },
+          {
+            "month": 18,
+            "balance": 71778525.6859864,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 62370000.0
+          },
+          {
+            "month": 19,
+            "balance": 75183434.32941103,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 65835000.0
+          },
+          {
+            "month": 20,
+            "balance": 78585492.46040961,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 69300000.0
+          },
+          {
+            "month": 21,
+            "balance": 81984702.46536613,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 72765000.0
+          },
+          {
+            "month": 22,
+            "balance": 85381066.72866778,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 76230000.0
+          },
+          {
+            "month": 23,
+            "balance": 88774587.63270505,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 79695000.0
+          },
+          {
+            "month": 24,
+            "balance": 92165267.55787382,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 3465000.0,
+            "cumulative_contributions": 83160000.0
+          }
+        ],
+        "total_contributions": 83160000.0,
+        "investment_gain": -994732.4421261847,
+        "emergency_fund_reserved": 20000000.0,
+        "emergency_fund_available": 20000000.0,
+        "warnings": [
+          "required_monthly_contribution_exceeds_current_surplus",
+          "income_growth_not_applied_in_mvp"
+        ],
+        "scenario_adjustments": {
+          "label": "Thận trọng",
+          "income_multiplier": 0.95,
+          "discretionary_expense_multiplier": 1.05,
+          "contribution_multiplier": 0.9,
+          "annual_return_rate_offset": -0.01
+        },
+        "requested_annual_return_rate": -0.01
+      },
+      "base": {
+        "scenario_name": "base",
+        "label": "Cơ sở",
+        "profile_used": {
+          "user_id": "P019",
+          "monthly_primary_income": 18000000.0,
+          "monthly_other_income": 2000000.0,
+          "monthly_essential_expense": 11000000.0,
+          "monthly_discretionary_expense": 3000000.0,
+          "monthly_debt_payment": 1000000.0,
+          "current_savings": 30000000.0,
+          "emergency_fund_reserved": 20000000.0,
+          "goal_name": "Học cao học",
+          "goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "risk_tolerance": "medium",
+          "liquidity_need": "medium",
+          "expected_income_growth": 0.06,
+          "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."
+        },
+        "assumptions": {
+          "annual_return_rate": 0.0
+        },
+        "calculation_result": {
+          "total_monthly_income": 20000000.0,
+          "total_monthly_outflow": 15000000.0,
+          "monthly_surplus": 5000000.0,
+          "savings_rate": 0.25,
+          "initial_available_amount": 10000000.0,
+          "monthly_contribution": 5000000.0,
+          "contribution_source": "non_negative_monthly_surplus",
+          "affordable_monthly_contribution": 5000000.0,
+          "contribution_affordability_gap": 0.0,
+          "annual_return_rate": 0.0,
+          "monthly_return_rate": 0.0,
+          "annual_inflation_rate": 0.0,
+          "monthly_inflation_rate": 0.0,
+          "nominal_goal_amount": 120000000.0,
+          "adjusted_goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "fv_initial": 10000000.0,
+          "fv_contribution": 120000000.0,
+          "fv_total": 130000000.0,
+          "goal_gap": -10000000.0,
+          "goal_reached_by_horizon": true,
+          "required_monthly_contribution": 4583333.333333333,
+          "required_contribution_gap": 0.0,
+          "estimated_month_to_goal": 22,
+          "calculation_warnings": [],
+          "assumptions_used": {
+            "contribution_timing": "end_of_month",
+            "return_rate_basis": "annual_effective_converted_to_monthly_effective",
+            "inflation_enabled": false,
+            "taxes_and_fees_included": false
+          }
+        },
+        "monthly_projection": [
+          {
+            "month": 0,
+            "balance": 10000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 0.0,
+            "cumulative_contributions": 0.0
+          },
+          {
+            "month": 1,
+            "balance": 15000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 5000000.0
+          },
+          {
+            "month": 2,
+            "balance": 20000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 10000000.0
+          },
+          {
+            "month": 3,
+            "balance": 25000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 15000000.0
+          },
+          {
+            "month": 4,
+            "balance": 30000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 20000000.0
+          },
+          {
+            "month": 5,
+            "balance": 35000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 25000000.0
+          },
+          {
+            "month": 6,
+            "balance": 40000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 30000000.0
+          },
+          {
+            "month": 7,
+            "balance": 45000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 35000000.0
+          },
+          {
+            "month": 8,
+            "balance": 50000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 40000000.0
+          },
+          {
+            "month": 9,
+            "balance": 55000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 45000000.0
+          },
+          {
+            "month": 10,
+            "balance": 60000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 50000000.0
+          },
+          {
+            "month": 11,
+            "balance": 65000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 55000000.0
+          },
+          {
+            "month": 12,
+            "balance": 70000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 60000000.0
+          },
+          {
+            "month": 13,
+            "balance": 75000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 65000000.0
+          },
+          {
+            "month": 14,
+            "balance": 80000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 70000000.0
+          },
+          {
+            "month": 15,
+            "balance": 85000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 75000000.0
+          },
+          {
+            "month": 16,
+            "balance": 90000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 80000000.0
+          },
+          {
+            "month": 17,
+            "balance": 95000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 85000000.0
+          },
+          {
+            "month": 18,
+            "balance": 100000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 90000000.0
+          },
+          {
+            "month": 19,
+            "balance": 105000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 95000000.0
+          },
+          {
+            "month": 20,
+            "balance": 110000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 100000000.0
+          },
+          {
+            "month": 21,
+            "balance": 115000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 105000000.0
+          },
+          {
+            "month": 22,
+            "balance": 120000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 110000000.0
+          },
+          {
+            "month": 23,
+            "balance": 125000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 115000000.0
+          },
+          {
+            "month": 24,
+            "balance": 130000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 120000000.0
+          }
+        ],
+        "total_contributions": 120000000.0,
+        "investment_gain": 0.0,
+        "emergency_fund_reserved": 20000000.0,
+        "emergency_fund_available": 20000000.0,
+        "warnings": [
+          "income_growth_not_applied_in_mvp"
+        ],
+        "scenario_adjustments": {
+          "label": "Cơ sở",
+          "income_multiplier": 1.0,
+          "discretionary_expense_multiplier": 1.0,
+          "contribution_multiplier": 1.0,
+          "annual_return_rate_offset": 0.0
+        },
+        "requested_annual_return_rate": 0.0
+      },
+      "optimistic": {
+        "scenario_name": "optimistic",
+        "label": "Tích cực",
+        "profile_used": {
+          "user_id": "P019",
+          "monthly_primary_income": 18900000.0,
+          "monthly_other_income": 2100000.0,
+          "monthly_essential_expense": 11000000.0,
+          "monthly_discretionary_expense": 2850000.0,
+          "monthly_debt_payment": 1000000.0,
+          "current_savings": 30000000.0,
+          "emergency_fund_reserved": 20000000.0,
+          "goal_name": "Học cao học",
+          "goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "risk_tolerance": "medium",
+          "liquidity_need": "medium",
+          "expected_income_growth": 0.06,
+          "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."
+        },
+        "assumptions": {
+          "annual_return_rate": 0.01,
+          "monthly_contribution": 6150000.0
+        },
+        "calculation_result": {
+          "total_monthly_income": 21000000.0,
+          "total_monthly_outflow": 14850000.0,
+          "monthly_surplus": 6150000.0,
+          "savings_rate": 0.29285714285714287,
+          "initial_available_amount": 10000000.0,
+          "monthly_contribution": 6150000.0,
+          "contribution_source": "assumption",
+          "affordable_monthly_contribution": 6150000.0,
+          "contribution_affordability_gap": 0.0,
+          "annual_return_rate": 0.01,
+          "monthly_return_rate": 0.0008295381143461622,
+          "annual_inflation_rate": 0.0,
+          "monthly_inflation_rate": 0.0,
+          "nominal_goal_amount": 120000000.0,
+          "adjusted_goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "fv_initial": 10200999.999999981,
+          "fv_contribution": 149016661.03361848,
+          "fv_total": 159217661.03361845,
+          "goal_gap": -39217661.03361845,
+          "goal_reached_by_horizon": true,
+          "required_monthly_contribution": 4531465.443636931,
+          "required_contribution_gap": 0.0,
+          "estimated_month_to_goal": 18,
+          "calculation_warnings": [],
+          "assumptions_used": {
+            "contribution_timing": "end_of_month",
+            "return_rate_basis": "annual_effective_converted_to_monthly_effective",
+            "inflation_enabled": false,
+            "taxes_and_fees_included": false
+          }
+        },
+        "monthly_projection": [
+          {
+            "month": 0,
+            "balance": 10000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 0.0,
+            "cumulative_contributions": 0.0
+          },
+          {
+            "month": 1,
+            "balance": 16158295.381143462,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 6150000.0
+          },
+          {
+            "month": 2,
+            "balance": 22321699.30302447,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 12300000.0
+          },
+          {
+            "month": 3,
+            "balance": 28490216.003373824,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 18450000.0
+          },
+          {
+            "month": 4,
+            "balance": 34663849.723435044,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 24600000.0
+          },
+          {
+            "month": 5,
+            "balance": 40842604.707969375,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 30750000.0
+          },
+          {
+            "month": 6,
+            "balance": 47026485.20526401,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 36900000.0
+          },
+          {
+            "month": 7,
+            "balance": 53215495.46712545,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 43050000.0
+          },
+          {
+            "month": 8,
+            "balance": 59409639.74888949,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 49200000.0
+          },
+          {
+            "month": 9,
+            "balance": 65608922.30942114,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 55350000.0
+          },
+          {
+            "month": 10,
+            "balance": 71813347.41111793,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 61500000.0
+          },
+          {
+            "month": 11,
+            "balance": 78022919.31991486,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 67650000.0
+          },
+          {
+            "month": 12,
+            "balance": 84237642.30528283,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 73800000.0
+          },
+          {
+            "month": 13,
+            "balance": 90457520.6402384,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 79950000.0
+          },
+          {
+            "month": 14,
+            "balance": 96682558.60133728,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 86100000.0
+          },
+          {
+            "month": 15,
+            "balance": 102912760.4686908,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 92250000.0
+          },
+          {
+            "month": 16,
+            "balance": 109148130.52595106,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 98400000.0
+          },
+          {
+            "month": 17,
+            "balance": 115388673.06033234,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 104550000.0
+          },
+          {
+            "month": 18,
+            "balance": 121634392.36259967,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 110700000.0
+          },
+          {
+            "month": 19,
+            "balance": 127885292.72708018,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 116850000.0
+          },
+          {
+            "month": 20,
+            "balance": 134141378.45166165,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 123000000.0
+          },
+          {
+            "month": 21,
+            "balance": 140402653.83779725,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 129150000.0
+          },
+          {
+            "month": 22,
+            "balance": 146669123.19051242,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 135300000.0
+          },
+          {
+            "month": 23,
+            "balance": 152940790.8183963,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 141450000.0
+          },
+          {
+            "month": 24,
+            "balance": 159217661.03361845,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6150000.0,
+            "cumulative_contributions": 147600000.0
+          }
+        ],
+        "total_contributions": 147600000.0,
+        "investment_gain": 1617661.0336184502,
+        "emergency_fund_reserved": 20000000.0,
+        "emergency_fund_available": 20000000.0,
+        "warnings": [
+          "income_growth_not_applied_in_mvp"
+        ],
+        "scenario_adjustments": {
+          "label": "Tích cực",
+          "income_multiplier": 1.05,
+          "discretionary_expense_multiplier": 0.95,
+          "contribution_multiplier": 1.1,
+          "annual_return_rate_offset": 0.01
+        },
+        "requested_annual_return_rate": 0.01
+      },
+      "metadata": {
+        "currency": "VND",
+        "rate_basis": "annual_effective",
+        "income_growth_applied": false,
+        "assumption_source": "config/scenario_defaults.json; educational assumptions, not market data",
+        "limits": {
+          "min_annual_return_rate": -0.05,
+          "max_annual_return_rate_by_risk": {
+            "low": 0.06,
+            "medium": 0.08,
+            "high": 0.1
+          },
+          "min_annual_inflation_rate": 0.0,
+          "max_annual_inflation_rate": 0.15,
+          "max_projection_months": 1200
+        },
+        "is_final_plan": false
+      }
+    },
+    "what_if": {
+      "baseline": {
+        "scenario_name": "baseline",
+        "label": "Trước thay đổi",
+        "profile_used": {
+          "user_id": "P019",
+          "monthly_primary_income": 18000000.0,
+          "monthly_other_income": 2000000.0,
+          "monthly_essential_expense": 11000000.0,
+          "monthly_discretionary_expense": 3000000.0,
+          "monthly_debt_payment": 1000000.0,
+          "current_savings": 30000000.0,
+          "emergency_fund_reserved": 20000000.0,
+          "goal_name": "Học cao học",
+          "goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "risk_tolerance": "medium",
+          "liquidity_need": "medium",
+          "expected_income_growth": 0.06,
+          "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."
+        },
+        "assumptions": {
+          "annual_return_rate": 0.0
+        },
+        "calculation_result": {
+          "total_monthly_income": 20000000.0,
+          "total_monthly_outflow": 15000000.0,
+          "monthly_surplus": 5000000.0,
+          "savings_rate": 0.25,
+          "initial_available_amount": 10000000.0,
+          "monthly_contribution": 5000000.0,
+          "contribution_source": "non_negative_monthly_surplus",
+          "affordable_monthly_contribution": 5000000.0,
+          "contribution_affordability_gap": 0.0,
+          "annual_return_rate": 0.0,
+          "monthly_return_rate": 0.0,
+          "annual_inflation_rate": 0.0,
+          "monthly_inflation_rate": 0.0,
+          "nominal_goal_amount": 120000000.0,
+          "adjusted_goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "fv_initial": 10000000.0,
+          "fv_contribution": 120000000.0,
+          "fv_total": 130000000.0,
+          "goal_gap": -10000000.0,
+          "goal_reached_by_horizon": true,
+          "required_monthly_contribution": 4583333.333333333,
+          "required_contribution_gap": 0.0,
+          "estimated_month_to_goal": 22,
+          "calculation_warnings": [],
+          "assumptions_used": {
+            "contribution_timing": "end_of_month",
+            "return_rate_basis": "annual_effective_converted_to_monthly_effective",
+            "inflation_enabled": false,
+            "taxes_and_fees_included": false
+          }
+        },
+        "monthly_projection": [
+          {
+            "month": 0,
+            "balance": 10000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 0.0,
+            "cumulative_contributions": 0.0
+          },
+          {
+            "month": 1,
+            "balance": 15000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 5000000.0
+          },
+          {
+            "month": 2,
+            "balance": 20000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 10000000.0
+          },
+          {
+            "month": 3,
+            "balance": 25000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 15000000.0
+          },
+          {
+            "month": 4,
+            "balance": 30000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 20000000.0
+          },
+          {
+            "month": 5,
+            "balance": 35000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 25000000.0
+          },
+          {
+            "month": 6,
+            "balance": 40000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 30000000.0
+          },
+          {
+            "month": 7,
+            "balance": 45000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 35000000.0
+          },
+          {
+            "month": 8,
+            "balance": 50000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 40000000.0
+          },
+          {
+            "month": 9,
+            "balance": 55000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 45000000.0
+          },
+          {
+            "month": 10,
+            "balance": 60000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 50000000.0
+          },
+          {
+            "month": 11,
+            "balance": 65000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 55000000.0
+          },
+          {
+            "month": 12,
+            "balance": 70000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 60000000.0
+          },
+          {
+            "month": 13,
+            "balance": 75000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 65000000.0
+          },
+          {
+            "month": 14,
+            "balance": 80000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 70000000.0
+          },
+          {
+            "month": 15,
+            "balance": 85000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 75000000.0
+          },
+          {
+            "month": 16,
+            "balance": 90000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 80000000.0
+          },
+          {
+            "month": 17,
+            "balance": 95000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 85000000.0
+          },
+          {
+            "month": 18,
+            "balance": 100000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 90000000.0
+          },
+          {
+            "month": 19,
+            "balance": 105000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 95000000.0
+          },
+          {
+            "month": 20,
+            "balance": 110000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 100000000.0
+          },
+          {
+            "month": 21,
+            "balance": 115000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 105000000.0
+          },
+          {
+            "month": 22,
+            "balance": 120000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 110000000.0
+          },
+          {
+            "month": 23,
+            "balance": 125000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 115000000.0
+          },
+          {
+            "month": 24,
+            "balance": 130000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 120000000.0
+          }
+        ],
+        "total_contributions": 120000000.0,
+        "investment_gain": 0.0,
+        "emergency_fund_reserved": 20000000.0,
+        "emergency_fund_available": 20000000.0,
+        "warnings": [
+          "income_growth_not_applied_in_mvp"
+        ]
+      },
+      "modified": {
+        "scenario_name": "what_if",
+        "label": "Sau thay đổi",
+        "profile_used": {
+          "user_id": "P019",
+          "monthly_primary_income": 19000000.0,
+          "monthly_other_income": 2000000.0,
+          "monthly_essential_expense": 11000000.0,
+          "monthly_discretionary_expense": 3000000.0,
+          "monthly_debt_payment": 1000000.0,
+          "current_savings": 30000000.0,
+          "emergency_fund_reserved": 20000000.0,
+          "goal_name": "Học cao học",
+          "goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "risk_tolerance": "medium",
+          "liquidity_need": "medium",
+          "expected_income_growth": 0.06,
+          "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."
+        },
+        "assumptions": {
+          "annual_return_rate": 0.0,
+          "monthly_contribution": null
+        },
+        "calculation_result": {
+          "total_monthly_income": 21000000.0,
+          "total_monthly_outflow": 15000000.0,
+          "monthly_surplus": 6000000.0,
+          "savings_rate": 0.2857142857142857,
+          "initial_available_amount": 10000000.0,
+          "monthly_contribution": 6000000.0,
+          "contribution_source": "non_negative_monthly_surplus",
+          "affordable_monthly_contribution": 6000000.0,
+          "contribution_affordability_gap": 0.0,
+          "annual_return_rate": 0.0,
+          "monthly_return_rate": 0.0,
+          "annual_inflation_rate": 0.0,
+          "monthly_inflation_rate": 0.0,
+          "nominal_goal_amount": 120000000.0,
+          "adjusted_goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "fv_initial": 10000000.0,
+          "fv_contribution": 144000000.0,
+          "fv_total": 154000000.0,
+          "goal_gap": -34000000.0,
+          "goal_reached_by_horizon": true,
+          "required_monthly_contribution": 4583333.333333333,
+          "required_contribution_gap": 0.0,
+          "estimated_month_to_goal": 19,
+          "calculation_warnings": [],
+          "assumptions_used": {
+            "contribution_timing": "end_of_month",
+            "return_rate_basis": "annual_effective_converted_to_monthly_effective",
+            "inflation_enabled": false,
+            "taxes_and_fees_included": false
+          }
+        },
+        "monthly_projection": [
+          {
+            "month": 0,
+            "balance": 10000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 0.0,
+            "cumulative_contributions": 0.0
+          },
+          {
+            "month": 1,
+            "balance": 16000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 6000000.0
+          },
+          {
+            "month": 2,
+            "balance": 22000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 12000000.0
+          },
+          {
+            "month": 3,
+            "balance": 28000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 18000000.0
+          },
+          {
+            "month": 4,
+            "balance": 34000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 24000000.0
+          },
+          {
+            "month": 5,
+            "balance": 40000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 30000000.0
+          },
+          {
+            "month": 6,
+            "balance": 46000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 36000000.0
+          },
+          {
+            "month": 7,
+            "balance": 52000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 42000000.0
+          },
+          {
+            "month": 8,
+            "balance": 58000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 48000000.0
+          },
+          {
+            "month": 9,
+            "balance": 64000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 54000000.0
+          },
+          {
+            "month": 10,
+            "balance": 70000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 60000000.0
+          },
+          {
+            "month": 11,
+            "balance": 76000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 66000000.0
+          },
+          {
+            "month": 12,
+            "balance": 82000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 72000000.0
+          },
+          {
+            "month": 13,
+            "balance": 88000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 78000000.0
+          },
+          {
+            "month": 14,
+            "balance": 94000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 84000000.0
+          },
+          {
+            "month": 15,
+            "balance": 100000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 90000000.0
+          },
+          {
+            "month": 16,
+            "balance": 106000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 96000000.0
+          },
+          {
+            "month": 17,
+            "balance": 112000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 102000000.0
+          },
+          {
+            "month": 18,
+            "balance": 118000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 108000000.0
+          },
+          {
+            "month": 19,
+            "balance": 124000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 114000000.0
+          },
+          {
+            "month": 20,
+            "balance": 130000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 120000000.0
+          },
+          {
+            "month": 21,
+            "balance": 136000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 126000000.0
+          },
+          {
+            "month": 22,
+            "balance": 142000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 132000000.0
+          },
+          {
+            "month": 23,
+            "balance": 148000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 138000000.0
+          },
+          {
+            "month": 24,
+            "balance": 154000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 6000000.0,
+            "cumulative_contributions": 144000000.0
+          }
+        ],
+        "total_contributions": 144000000.0,
+        "investment_gain": 0.0,
+        "emergency_fund_reserved": 20000000.0,
+        "emergency_fund_available": 20000000.0,
+        "warnings": [
+          "income_growth_not_applied_in_mvp"
+        ]
+      },
+      "changes": {
+        "profile_updates": {
+          "monthly_primary_income": 19000000
+        },
+        "assumption_updates": {
+          "monthly_contribution": null
+        }
+      },
+      "comparison": {
+        "fv_total_change": 24000000.0,
+        "goal_gap_change": -24000000.0,
+        "month_to_goal_change": -3,
+        "horizons_differ": false
+      },
+      "is_final_plan": false
+    },
+    "stress_test": {
+      "baseline": {
+        "scenario_name": "baseline",
+        "label": "Trước stress",
+        "profile_used": {
+          "user_id": "P019",
+          "monthly_primary_income": 18000000.0,
+          "monthly_other_income": 2000000.0,
+          "monthly_essential_expense": 11000000.0,
+          "monthly_discretionary_expense": 3000000.0,
+          "monthly_debt_payment": 1000000.0,
+          "current_savings": 30000000.0,
+          "emergency_fund_reserved": 20000000.0,
+          "goal_name": "Học cao học",
+          "goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "risk_tolerance": "medium",
+          "liquidity_need": "medium",
+          "expected_income_growth": 0.06,
+          "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."
+        },
+        "assumptions": {
+          "annual_return_rate": 0.0
+        },
+        "calculation_result": {
+          "total_monthly_income": 20000000.0,
+          "total_monthly_outflow": 15000000.0,
+          "monthly_surplus": 5000000.0,
+          "savings_rate": 0.25,
+          "initial_available_amount": 10000000.0,
+          "monthly_contribution": 5000000.0,
+          "contribution_source": "non_negative_monthly_surplus",
+          "affordable_monthly_contribution": 5000000.0,
+          "contribution_affordability_gap": 0.0,
+          "annual_return_rate": 0.0,
+          "monthly_return_rate": 0.0,
+          "annual_inflation_rate": 0.0,
+          "monthly_inflation_rate": 0.0,
+          "nominal_goal_amount": 120000000.0,
+          "adjusted_goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "fv_initial": 10000000.0,
+          "fv_contribution": 120000000.0,
+          "fv_total": 130000000.0,
+          "goal_gap": -10000000.0,
+          "goal_reached_by_horizon": true,
+          "required_monthly_contribution": 4583333.333333333,
+          "required_contribution_gap": 0.0,
+          "estimated_month_to_goal": 22,
+          "calculation_warnings": [],
+          "assumptions_used": {
+            "contribution_timing": "end_of_month",
+            "return_rate_basis": "annual_effective_converted_to_monthly_effective",
+            "inflation_enabled": false,
+            "taxes_and_fees_included": false
+          }
+        },
+        "monthly_projection": [
+          {
+            "month": 0,
+            "balance": 10000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 0.0,
+            "cumulative_contributions": 0.0
+          },
+          {
+            "month": 1,
+            "balance": 15000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 5000000.0
+          },
+          {
+            "month": 2,
+            "balance": 20000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 10000000.0
+          },
+          {
+            "month": 3,
+            "balance": 25000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 15000000.0
+          },
+          {
+            "month": 4,
+            "balance": 30000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 20000000.0
+          },
+          {
+            "month": 5,
+            "balance": 35000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 25000000.0
+          },
+          {
+            "month": 6,
+            "balance": 40000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 30000000.0
+          },
+          {
+            "month": 7,
+            "balance": 45000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 35000000.0
+          },
+          {
+            "month": 8,
+            "balance": 50000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 40000000.0
+          },
+          {
+            "month": 9,
+            "balance": 55000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 45000000.0
+          },
+          {
+            "month": 10,
+            "balance": 60000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 50000000.0
+          },
+          {
+            "month": 11,
+            "balance": 65000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 55000000.0
+          },
+          {
+            "month": 12,
+            "balance": 70000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 60000000.0
+          },
+          {
+            "month": 13,
+            "balance": 75000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 65000000.0
+          },
+          {
+            "month": 14,
+            "balance": 80000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 70000000.0
+          },
+          {
+            "month": 15,
+            "balance": 85000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 75000000.0
+          },
+          {
+            "month": 16,
+            "balance": 90000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 80000000.0
+          },
+          {
+            "month": 17,
+            "balance": 95000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 85000000.0
+          },
+          {
+            "month": 18,
+            "balance": 100000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 90000000.0
+          },
+          {
+            "month": 19,
+            "balance": 105000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 95000000.0
+          },
+          {
+            "month": 20,
+            "balance": 110000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 100000000.0
+          },
+          {
+            "month": 21,
+            "balance": 115000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 105000000.0
+          },
+          {
+            "month": 22,
+            "balance": 120000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 110000000.0
+          },
+          {
+            "month": 23,
+            "balance": 125000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 115000000.0
+          },
+          {
+            "month": 24,
+            "balance": 130000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 120000000.0
+          }
+        ],
+        "total_contributions": 120000000.0,
+        "investment_gain": 0.0,
+        "emergency_fund_reserved": 20000000.0,
+        "emergency_fund_available": 20000000.0,
+        "warnings": [
+          "income_growth_not_applied_in_mvp"
+        ]
+      },
+      "stressed": {
+        "scenario_name": "stressed",
+        "label": "Sau stress",
+        "profile_used": {
+          "user_id": "P019",
+          "monthly_primary_income": 18000000.0,
+          "monthly_other_income": 2000000.0,
+          "monthly_essential_expense": 11000000.0,
+          "monthly_discretionary_expense": 3000000.0,
+          "monthly_debt_payment": 1000000.0,
+          "current_savings": 30000000.0,
+          "emergency_fund_reserved": 20000000.0,
+          "goal_name": "Học cao học",
+          "goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "risk_tolerance": "medium",
+          "liquidity_need": "medium",
+          "expected_income_growth": 0.06,
+          "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."
+        },
+        "assumptions": {
+          "annual_return_rate": 0.0
+        },
+        "calculation_result": {
+          "fv_total": 118000000.0,
+          "adjusted_goal_amount": 120000000.0,
+          "goal_gap": 2000000.0,
+          "goal_reached_by_horizon": false,
+          "fv_initial": 10000000.0,
+          "fv_contribution": 108000000.0,
+          "estimated_month_to_goal": 25,
+          "initial_available_amount": 10000000.0,
+          "nominal_goal_amount": 120000000.0,
+          "goal_horizon_months": 24,
+          "annual_return_rate": 0.0,
+          "monthly_return_rate": 0.0,
+          "annual_inflation_rate": 0.0,
+          "monthly_inflation_rate": 0.0,
+          "monthly_contribution": null,
+          "required_monthly_contribution": null,
+          "contribution_source": "temporary_income_shock_schedule",
+          "calculation_warnings": [
+            "income_growth_not_applied_in_mvp"
+          ],
+          "assumptions_used": {
+            "contribution_timing": "end_of_month",
+            "return_rate_basis": "annual_effective_converted_to_monthly_effective",
+            "inflation_enabled": false,
+            "taxes_and_fees_included": false,
+            "variable_contribution_schedule": true
+          }
+        },
+        "monthly_projection": [
+          {
+            "month": 0,
+            "balance": 10000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 0.0,
+            "cumulative_contributions": 0.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 1,
+            "balance": 11000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 1000000.0,
+            "cumulative_contributions": 1000000.0,
+            "total_monthly_income": 16000000.0,
+            "monthly_surplus": 1000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": true
+          },
+          {
+            "month": 2,
+            "balance": 12000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 1000000.0,
+            "cumulative_contributions": 2000000.0,
+            "total_monthly_income": 16000000.0,
+            "monthly_surplus": 1000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": true
+          },
+          {
+            "month": 3,
+            "balance": 13000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 1000000.0,
+            "cumulative_contributions": 3000000.0,
+            "total_monthly_income": 16000000.0,
+            "monthly_surplus": 1000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": true
+          },
+          {
+            "month": 4,
+            "balance": 18000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 8000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 5,
+            "balance": 23000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 13000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 6,
+            "balance": 28000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 18000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 7,
+            "balance": 33000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 23000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 8,
+            "balance": 38000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 28000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 9,
+            "balance": 43000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 33000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 10,
+            "balance": 48000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 38000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 11,
+            "balance": 53000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 43000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 12,
+            "balance": 58000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 48000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 13,
+            "balance": 63000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 53000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 14,
+            "balance": 68000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 58000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 15,
+            "balance": 73000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 63000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 16,
+            "balance": 78000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 68000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 17,
+            "balance": 83000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 73000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 18,
+            "balance": 88000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 78000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 19,
+            "balance": 93000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 83000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 20,
+            "balance": 98000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 88000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 21,
+            "balance": 103000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 93000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 22,
+            "balance": 108000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 98000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 23,
+            "balance": 113000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 103000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          },
+          {
+            "month": 24,
+            "balance": 118000000.0,
+            "target_amount": 120000000.0,
+            "monthly_contribution": 5000000.0,
+            "cumulative_contributions": 108000000.0,
+            "total_monthly_income": 20000000.0,
+            "monthly_surplus": 5000000.0,
+            "cashflow_deficit": 0.0,
+            "contribution_affordability_gap": 0.0,
+            "stress_active": false
+          }
+        ],
+        "planned_monthly_contribution": 5000000.0,
+        "total_contributions": 108000000.0,
+        "investment_gain": 0.0,
+        "emergency_fund_reserved": 20000000.0,
+        "emergency_fund_available": 20000000.0,
+        "unfunded_cashflow_deficit": 0.0,
+        "warnings": [
+          "income_growth_not_applied_in_mvp"
+        ]
+      },
+      "stress_config": {
+        "income_reduction_rate": 0.2,
+        "start_month": 1,
+        "duration_months": 3
+      },
+      "comparison": {
+        "fv_total_reduction": 12000000.0,
+        "goal_gap_increase": 12000000.0,
+        "month_to_goal_change": 3,
+        "goal_delay_months": 3,
+        "baseline_goal_reached_by_horizon": true,
+        "stressed_goal_reached_by_horizon": false,
+        "extension_months_from_original_horizon": 1,
+        "recovery_start_month": 4,
+        "recovery_required_monthly_contribution": 5095238.095238095,
+        "additional_monthly_contribution_after_stress": 95238.09523809515,
+        "recovery_required_contribution_gap": 95238.09523809515,
+        "recovery_unavailable_reason": null,
+        "unfunded_cashflow_deficit": 0.0
+      },
+      "metadata": {
+        "currency": "VND",
+        "max_projection_months": 1200,
+        "emergency_fund_drawdown_modelled": false,
+        "deficit_funding_modelled": false,
+        "is_final_plan": false
+      }
+    },
+    "is_final_plan": false
+  }
+}

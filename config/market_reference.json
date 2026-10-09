@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "retrieved_on": "2026-09-24",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "verification_status": "unverified_packaged_snapshot",
+  "usage_note": "Đây là các giả định giáo dục giữ từ bản dữ liệu đóng gói, chưa được xác minh lại với nguồn tại lần xây dựng này. Liên kết bên dưới để tham khảo, không chứng minh mức lãi suất hay CPI hiện hành. Không phải dự báo hoặc cam kết lợi nhuận.",
+  "indicators": {
+    "annual_return_rate": {
+      "label": "Lợi suất giáo dục · tham khảo tiền gửi 12 tháng",
+      "value": 0.059,
+      "display_value": "5,90%/năm",
+      "reference_period": "Giá trị giữ từ gói gốc ngày 24/09/2026; chưa xác minh lại với biểu lãi suất nguồn.",
+      "source": "Vietcombank",
+      "source_url": "https://www.vietcombank.com.vn/vi-VN/KHCN/Cong-cu-Tien-ich/KHCN---Lai-suat"
+    },
+    "annual_inflation_rate": {
+      "label": "Lạm phát giáo dục · tham khảo CPI",
+      "value": 0.0489,
+      "display_value": "4,89%",
+      "reference_period": "Giá trị giữ từ gói gốc ngày 24/09/2026; chưa xác minh lại kỳ dữ liệu và mức CPI.",
+      "source": "Tài liệu Vnstock Macro CPI; có liên kết Cục Thống kê để đối chiếu",
+      "source_url": "https://www.vnstocks.com/docs/vnstock-data/macro-layer-v3",
+      "verification_url": "https://www.nso.gov.vn/du-lieu-va-so-lieu-thong-ke/"
+    }
+  }
+}

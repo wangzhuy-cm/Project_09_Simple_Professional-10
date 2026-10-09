@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "currency": "VND",
+  "rate_basis": "annual_decimal",
+  "horizon_unit": "months",
+  "description": "Synthetic Project 09 profiles. No real personal data is included.",
+  "cases": [
+    {
+      "case_id": "P001",
+      "category": "valid_feasible",
+      "input_text": "Tôi là sinh viên, mỗi tháng được gia đình hỗ trợ 8 triệu đồng và kiếm thêm 2 triệu. Chi phí thiết yếu 5 triệu, chi tiêu cá nhân 2 triệu và không có khoản trả nợ. Tôi đang có 15 triệu, muốn giữ 5 triệu làm quỹ dự phòng và cần 100 triệu sau 3 năm để học cao học. Tôi chấp nhận rủi ro thấp, nhu cầu thanh khoản trung bình và dự kiến thu nhập tăng 5% mỗi năm.",
+      "expected_profile": {"user_id": "P001", "monthly_primary_income": 8000000, "monthly_other_income": 2000000, "monthly_essential_expense": 5000000, "monthly_discretionary_expense": 2000000, "monthly_debt_payment": 0, "current_savings": 15000000, "emergency_fund_reserved": 5000000, "goal_name": "Học cao học", "goal_amount": 100000000, "goal_horizon_months": 36, "risk_tolerance": "low", "liquidity_need": "medium", "expected_income_growth": 0.05, "notes": null},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P002",
+      "category": "valid_feasible",
+      "input_text": "Tôi có thu nhập chính 9 triệu và làm thêm 3 triệu mỗi tháng. Chi phí thiết yếu 6 triệu, chi phí không thiết yếu 2 triệu, không có nợ. Tôi có 8 triệu tiết kiệm, giữ lại 6 triệu dự phòng và muốn có 60 triệu trong 18 tháng để học chứng chỉ. Tôi chịu rủi ro thấp, cần thanh khoản cao và kỳ vọng thu nhập tăng 3% một năm.",
+      "expected_profile": {"user_id": "P002", "monthly_primary_income": 9000000, "monthly_other_income": 3000000, "monthly_essential_expense": 6000000, "monthly_discretionary_expense": 2000000, "monthly_debt_payment": 0, "current_savings": 8000000, "emergency_fund_reserved": 6000000, "goal_name": "Học chứng chỉ nghề nghiệp", "goal_amount": 60000000, "goal_horizon_months": 18, "risk_tolerance": "low", "liquidity_need": "high", "expected_income_growth": 0.03, "notes": null},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P003",
+      "category": "valid_feasible",
+      "input_text": "Tôi mới đi làm, lương chính 18 triệu và thu nhập phụ 2 triệu mỗi tháng. Tôi chi 10 triệu cho nhu cầu thiết yếu, 3 triệu cho giải trí và trả nợ 1 triệu. Tôi có 30 triệu, giữ 15 triệu làm quỹ dự phòng và muốn tích lũy 120 triệu trong 24 tháng để đặt cọc thuê nhà. Mức rủi ro và nhu cầu thanh khoản đều trung bình, thu nhập dự kiến tăng 7% mỗi năm.",
+      "expected_profile": {"user_id": "P003", "monthly_primary_income": 18000000, "monthly_other_income": 2000000, "monthly_essential_expense": 10000000, "monthly_discretionary_expense": 3000000, "monthly_debt_payment": 1000000, "current_savings": 30000000, "emergency_fund_reserved": 15000000, "goal_name": "Đặt cọc thuê nhà", "goal_amount": 120000000, "goal_horizon_months": 24, "risk_tolerance": "medium", "liquidity_need": "medium", "expected_income_growth": 0.07, "notes": null},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P004",
+      "category": "valid_feasible",
+      "input_text": "Thu nhập chính của tôi là 13 triệu, thu nhập phụ 2 triệu mỗi tháng. Chi phí thiết yếu 7 triệu, chi phí cá nhân 3 triệu và trả nợ 1 triệu. Tôi đã có 20 triệu, cần giữ 12 triệu dự phòng và muốn mua laptop 80 triệu sau 24 tháng. Tôi chấp nhận rủi ro thấp, cần thanh khoản cao và ước tính thu nhập tăng 4% mỗi năm.",
+      "expected_profile": {"user_id": "P004", "monthly_primary_income": 13000000, "monthly_other_income": 2000000, "monthly_essential_expense": 7000000, "monthly_discretionary_expense": 3000000, "monthly_debt_payment": 1000000, "current_savings": 20000000, "emergency_fund_reserved": 12000000, "goal_name": "Mua laptop", "goal_amount": 80000000, "goal_horizon_months": 24, "risk_tolerance": "low", "liquidity_need": "high", "expected_income_growth": 0.04, "notes": null},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P005",
+      "category": "valid_feasible",
+      "input_text": "Mỗi tháng tôi nhận lương 22 triệu và có thêm 3 triệu thu nhập phụ. Chi phí thiết yếu là 12 triệu, chi tiêu không thiết yếu 5 triệu, trả nợ 2 triệu. Tôi có 50 triệu tiết kiệm, giữ lại 25 triệu dự phòng và muốn có 200 triệu trong 36 tháng để học cao học. Tôi chịu rủi ro trung bình, nhu cầu thanh khoản thấp và dự kiến thu nhập tăng 8% mỗi năm.",
+      "expected_profile": {"user_id": "P005", "monthly_primary_income": 22000000, "monthly_other_income": 3000000, "monthly_essential_expense": 12000000, "monthly_discretionary_expense": 5000000, "monthly_debt_payment": 2000000, "current_savings": 50000000, "emergency_fund_reserved": 25000000, "goal_name": "Học cao học", "goal_amount": 200000000, "goal_horizon_months": 36, "risk_tolerance": "medium", "liquidity_need": "low", "expected_income_growth": 0.08, "notes": null},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P006",
+      "category": "valid_infeasible",
+      "input_text": "Thu nhập chính của tôi là 7 triệu và thu nhập phụ 1 triệu. Mỗi tháng tôi chi 6 triệu cho nhu cầu thiết yếu và 1,5 triệu cho chi tiêu khác, không trả nợ. Tôi có 5 triệu nhưng muốn giữ toàn bộ làm quỹ dự phòng. Tôi muốn có 100 triệu sau 12 tháng để mua xe máy, chịu rủi ro thấp, cần thanh khoản cao và không dự kiến tăng thu nhập.",
+      "expected_profile": {"user_id": "P006", "monthly_primary_income": 7000000, "monthly_other_income": 1000000, "monthly_essential_expense": 6000000, "monthly_discretionary_expense": 1500000, "monthly_debt_payment": 0, "current_savings": 5000000, "emergency_fund_reserved": 5000000, "goal_name": "Mua xe máy", "goal_amount": 100000000, "goal_horizon_months": 12, "risk_tolerance": "low", "liquidity_need": "high", "expected_income_growth": 0, "notes": null},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P007",
+      "category": "valid_infeasible",
+      "input_text": "Tôi có lương 15 triệu mỗi tháng và không có thu nhập phụ. Chi phí thiết yếu là 10 triệu, chi phí không thiết yếu 4 triệu và trả nợ 500 nghìn. Tôi có 10 triệu tiết kiệm, giữ lại 8 triệu dự phòng và muốn đạt 300 triệu trong 24 tháng để học ở nước ngoài. Mức rủi ro và thanh khoản đều trung bình, thu nhập dự kiến tăng 3% mỗi năm.",
+      "expected_profile": {"user_id": "P007", "monthly_primary_income": 15000000, "monthly_other_income": 0, "monthly_essential_expense": 10000000, "monthly_discretionary_expense": 4000000, "monthly_debt_payment": 500000, "current_savings": 10000000, "emergency_fund_reserved": 8000000, "goal_name": "Học ở nước ngoài", "goal_amount": 300000000, "goal_horizon_months": 24, "risk_tolerance": "medium", "liquidity_need": "medium", "expected_income_growth": 0.03, "notes": null},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P008",
+      "category": "valid_infeasible",
+      "input_text": "Tôi kiếm 20 triệu mỗi tháng, không có thu nhập phụ. Chi phí thiết yếu 12 triệu, chi tiêu cá nhân 5 triệu và trả nợ 2 triệu. Hiện tôi chưa có tiền tiết kiệm hay quỹ dự phòng. Tôi muốn có 500 triệu trong 36 tháng để đặt cọc mua nhà, chịu rủi ro cao, nhu cầu thanh khoản thấp và dự kiến thu nhập tăng 5% mỗi năm.",
+      "expected_profile": {"user_id": "P008", "monthly_primary_income": 20000000, "monthly_other_income": 0, "monthly_essential_expense": 12000000, "monthly_discretionary_expense": 5000000, "monthly_debt_payment": 2000000, "current_savings": 0, "emergency_fund_reserved": 0, "goal_name": "Đặt cọc mua nhà", "goal_amount": 500000000, "goal_horizon_months": 36, "risk_tolerance": "high", "liquidity_need": "low", "expected_income_growth": 0.05, "notes": null},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P009",
+      "category": "missing_information",
+      "input_text": "Thu nhập chính của tôi là 10 triệu và thu nhập phụ 2 triệu mỗi tháng. Tôi chi 7 triệu cho nhu cầu thiết yếu, 2 triệu cho chi tiêu cá nhân và không trả nợ. Tôi có 12 triệu, giữ 8 triệu dự phòng và muốn tiết kiệm 80 triệu để du lịch nhưng chưa xác định thời hạn. Tôi chịu rủi ro thấp, nhu cầu thanh khoản trung bình và thu nhập dự kiến tăng 4% mỗi năm.",
+      "expected_profile": {"user_id": "P009", "monthly_primary_income": 10000000, "monthly_other_income": 2000000, "monthly_essential_expense": 7000000, "monthly_discretionary_expense": 2000000, "monthly_debt_payment": 0, "current_savings": 12000000, "emergency_fund_reserved": 8000000, "goal_name": "Du lịch", "goal_amount": 80000000, "goal_horizon_months": null, "risk_tolerance": "low", "liquidity_need": "medium", "expected_income_growth": 0.04, "notes": "Chưa xác định thời hạn mục tiêu."},
+      "expected_null_fields": ["goal_horizon_months"]
+    },
+    {
+      "case_id": "P010",
+      "category": "missing_information",
+      "input_text": "Tôi nhận lương 16 triệu mỗi tháng, không có thu nhập phụ. Chi phí thiết yếu 9 triệu, chi tiêu khác 3 triệu và trả nợ 1 triệu. Tôi có 25 triệu, muốn giữ 15 triệu dự phòng và học một chứng chỉ trong 18 tháng nhưng chưa biết cần bao nhiêu tiền. Tôi chịu rủi ro trung bình, nhu cầu thanh khoản trung bình và dự kiến thu nhập tăng 5% mỗi năm.",
+      "expected_profile": {"user_id": "P010", "monthly_primary_income": 16000000, "monthly_other_income": 0, "monthly_essential_expense": 9000000, "monthly_discretionary_expense": 3000000, "monthly_debt_payment": 1000000, "current_savings": 25000000, "emergency_fund_reserved": 15000000, "goal_name": "Học chứng chỉ nghề nghiệp", "goal_amount": null, "goal_horizon_months": 18, "risk_tolerance": "medium", "liquidity_need": "medium", "expected_income_growth": 0.05, "notes": "Chưa xác định giá trị mục tiêu."},
+      "expected_null_fields": ["goal_amount"]
+    },
+    {
+      "case_id": "P011",
+      "category": "missing_information",
+      "input_text": "Thu nhập chính của tôi là 11 triệu, thu nhập phụ 2 triệu. Chi phí thiết yếu 7 triệu, chi tiêu cá nhân 2 triệu, không có khoản trả nợ. Tôi có 10 triệu, giữ 6 triệu dự phòng và cần 50 triệu sau 12 tháng để mua máy tính. Tôi cần thanh khoản cao, dự kiến thu nhập tăng 3% nhưng chưa xác định mức chấp nhận rủi ro.",
+      "expected_profile": {"user_id": "P011", "monthly_primary_income": 11000000, "monthly_other_income": 2000000, "monthly_essential_expense": 7000000, "monthly_discretionary_expense": 2000000, "monthly_debt_payment": 0, "current_savings": 10000000, "emergency_fund_reserved": 6000000, "goal_name": "Mua máy tính", "goal_amount": 50000000, "goal_horizon_months": 12, "risk_tolerance": null, "liquidity_need": "high", "expected_income_growth": 0.03, "notes": "Chưa xác định mức chấp nhận rủi ro."},
+      "expected_null_fields": ["risk_tolerance"]
+    },
+    {
+      "case_id": "P012",
+      "category": "contradictory",
+      "input_text": "Tôi có thu nhập chính 14 triệu và thu nhập phụ 1 triệu. Chi phí thiết yếu 8 triệu, chi tiêu khác 3 triệu, không trả nợ. Tôi hiện có 20 triệu tiết kiệm nhưng muốn giữ 30 triệu làm quỹ dự phòng. Mục tiêu là 70 triệu trong 18 tháng để học chứng chỉ. Tôi chịu rủi ro thấp, cần thanh khoản cao và dự kiến thu nhập tăng 4% mỗi năm.",
+      "expected_profile": {"user_id": "P012", "monthly_primary_income": 14000000, "monthly_other_income": 1000000, "monthly_essential_expense": 8000000, "monthly_discretionary_expense": 3000000, "monthly_debt_payment": 0, "current_savings": 20000000, "emergency_fund_reserved": 30000000, "goal_name": "Học chứng chỉ", "goal_amount": 70000000, "goal_horizon_months": 18, "risk_tolerance": "low", "liquidity_need": "high", "expected_income_growth": 0.04, "notes": "Quỹ dự phòng khai báo lớn hơn tiền tiết kiệm hiện có."},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P013",
+      "category": "contradictory",
+      "input_text": "Tôi có lương 12 triệu, không có thu nhập phụ. Mỗi tháng chi 7 triệu thiết yếu, 2 triệu không thiết yếu và không trả nợ. Tôi có 10 triệu, giữ lại 5 triệu dự phòng. Giá trị mục tiêu tôi nhập là âm 50 triệu đồng trong 12 tháng. Tôi chịu rủi ro trung bình, cần thanh khoản trung bình và không dự kiến tăng thu nhập.",
+      "expected_profile": {"user_id": "P013", "monthly_primary_income": 12000000, "monthly_other_income": 0, "monthly_essential_expense": 7000000, "monthly_discretionary_expense": 2000000, "monthly_debt_payment": 0, "current_savings": 10000000, "emergency_fund_reserved": 5000000, "goal_name": "Tiết kiệm", "goal_amount": -50000000, "goal_horizon_months": 12, "risk_tolerance": "medium", "liquidity_need": "medium", "expected_income_growth": 0, "notes": "Giá trị mục tiêu được nhập là số âm."},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P014",
+      "category": "contradictory",
+      "input_text": "Thu nhập của tôi là 18 triệu mỗi tháng và không có nguồn thu khác. Tôi chi 10 triệu thiết yếu, 4 triệu không thiết yếu và không trả nợ. Tôi có 25 triệu, giữ 15 triệu dự phòng và muốn có 80 triệu ngay trong 0 tháng để đi du lịch. Tôi chịu rủi ro trung bình, cần thanh khoản cao và dự kiến thu nhập tăng 2% mỗi năm.",
+      "expected_profile": {"user_id": "P014", "monthly_primary_income": 18000000, "monthly_other_income": 0, "monthly_essential_expense": 10000000, "monthly_discretionary_expense": 4000000, "monthly_debt_payment": 0, "current_savings": 25000000, "emergency_fund_reserved": 15000000, "goal_name": "Du lịch", "goal_amount": 80000000, "goal_horizon_months": 0, "risk_tolerance": "medium", "liquidity_need": "high", "expected_income_growth": 0.02, "notes": "Thời hạn mục tiêu được nhập là 0 tháng."},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P015",
+      "category": "negative_cashflow",
+      "input_text": "Tôi có thu nhập chính 8 triệu và thu nhập phụ 1 triệu mỗi tháng. Chi phí thiết yếu là 8 triệu, chi tiêu cá nhân 3 triệu và trả nợ 1 triệu. Tôi có 5 triệu và giữ toàn bộ làm dự phòng. Tôi muốn có 30 triệu trong 12 tháng để mua laptop, chịu rủi ro thấp, cần thanh khoản cao và dự kiến thu nhập tăng 2% mỗi năm.",
+      "expected_profile": {"user_id": "P015", "monthly_primary_income": 8000000, "monthly_other_income": 1000000, "monthly_essential_expense": 8000000, "monthly_discretionary_expense": 3000000, "monthly_debt_payment": 1000000, "current_savings": 5000000, "emergency_fund_reserved": 5000000, "goal_name": "Mua laptop", "goal_amount": 30000000, "goal_horizon_months": 12, "risk_tolerance": "low", "liquidity_need": "high", "expected_income_growth": 0.02, "notes": "Tổng chi phí và trả nợ lớn hơn tổng thu nhập."},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P016",
+      "category": "negative_cashflow",
+      "input_text": "Lương chính của tôi là 14 triệu, thu nhập phụ 1 triệu. Chi phí thiết yếu 11 triệu, chi phí không thiết yếu 5 triệu và trả nợ 2 triệu mỗi tháng. Tôi có 8 triệu và muốn giữ toàn bộ làm quỹ dự phòng. Mục tiêu là 60 triệu trong 24 tháng để học nghề. Tôi chịu rủi ro trung bình, cần thanh khoản trung bình và dự kiến thu nhập tăng 3% mỗi năm.",
+      "expected_profile": {"user_id": "P016", "monthly_primary_income": 14000000, "monthly_other_income": 1000000, "monthly_essential_expense": 11000000, "monthly_discretionary_expense": 5000000, "monthly_debt_payment": 2000000, "current_savings": 8000000, "emergency_fund_reserved": 8000000, "goal_name": "Học nghề", "goal_amount": 60000000, "goal_horizon_months": 24, "risk_tolerance": "medium", "liquidity_need": "medium", "expected_income_growth": 0.03, "notes": "Tổng chi phí và trả nợ lớn hơn tổng thu nhập."},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P017",
+      "category": "out_of_scope",
+      "input_text": "Tôi hiện có 50 triệu đồng và chịu rủi ro cao. Hãy cho tôi biết nên mua ngay cổ phiếu FPT hay VNM để lãi nhanh.",
+      "expected_profile": {"user_id": "P017", "monthly_primary_income": null, "monthly_other_income": null, "monthly_essential_expense": null, "monthly_discretionary_expense": null, "monthly_debt_payment": null, "current_savings": 50000000, "emergency_fund_reserved": null, "goal_name": null, "goal_amount": null, "goal_horizon_months": null, "risk_tolerance": "high", "liquidity_need": null, "expected_income_growth": null, "notes": "Yêu cầu khuyến nghị mua cổ phiếu FPT hoặc VNM cụ thể."},
+      "expected_null_fields": ["monthly_primary_income", "monthly_other_income", "monthly_essential_expense", "monthly_discretionary_expense", "monthly_debt_payment", "emergency_fund_reserved", "goal_name", "goal_amount", "goal_horizon_months", "liquidity_need", "expected_income_growth"]
+    },
+    {
+      "case_id": "P018",
+      "category": "out_of_scope",
+      "input_text": "Tôi có 20 triệu, muốn biến thành 200 triệu trong 6 tháng bằng cách mua Bitcoin và cần được bảo đảm lợi nhuận. Tôi chấp nhận rủi ro cao và nhu cầu thanh khoản thấp.",
+      "expected_profile": {"user_id": "P018", "monthly_primary_income": null, "monthly_other_income": null, "monthly_essential_expense": null, "monthly_discretionary_expense": null, "monthly_debt_payment": null, "current_savings": 20000000, "emergency_fund_reserved": null, "goal_name": "Lợi nhuận từ Bitcoin", "goal_amount": 200000000, "goal_horizon_months": 6, "risk_tolerance": "high", "liquidity_need": "low", "expected_income_growth": null, "notes": "Yêu cầu mua Bitcoin và bảo đảm lợi nhuận."},
+      "expected_null_fields": ["monthly_primary_income", "monthly_other_income", "monthly_essential_expense", "monthly_discretionary_expense", "monthly_debt_payment", "emergency_fund_reserved", "expected_income_growth"]
+    },
+    {
+      "case_id": "P019",
+      "category": "stress_test",
+      "input_text": "Tôi có lương chính 18 triệu và thu nhập phụ 2 triệu mỗi tháng. Chi phí thiết yếu 11 triệu, chi tiêu cá nhân 3 triệu và trả nợ 1 triệu. Tôi có 30 triệu, giữ 20 triệu dự phòng và muốn đạt 120 triệu sau 24 tháng để học cao học. Tôi chịu rủi ro trung bình, cần thanh khoản trung bình và dự kiến thu nhập tăng 6% mỗi năm. Hãy dùng hồ sơ này để thử tình huống thu nhập giảm 20% trong 3 tháng.",
+      "expected_profile": {"user_id": "P019", "monthly_primary_income": 18000000, "monthly_other_income": 2000000, "monthly_essential_expense": 11000000, "monthly_discretionary_expense": 3000000, "monthly_debt_payment": 1000000, "current_savings": 30000000, "emergency_fund_reserved": 20000000, "goal_name": "Học cao học", "goal_amount": 120000000, "goal_horizon_months": 24, "risk_tolerance": "medium", "liquidity_need": "medium", "expected_income_growth": 0.06, "notes": "Dùng cho stress test thu nhập giảm 20% trong 3 tháng."},
+      "expected_null_fields": []
+    },
+    {
+      "case_id": "P020",
+      "category": "stress_test",
+      "input_text": "Thu nhập chính của tôi là 12 triệu và thu nhập phụ 3 triệu. Chi phí thiết yếu 8 triệu, chi tiêu khác 3 triệu, không trả nợ. Tôi có 18 triệu, giữ 12 triệu dự phòng và muốn có 75 triệu trong 18 tháng để mua xe máy. Tôi chịu rủi ro thấp, cần thanh khoản cao và dự kiến thu nhập tăng 4% mỗi năm. Hãy kiểm tra thêm tình huống chi phí tăng 15%.",
+      "expected_profile": {"user_id": "P020", "monthly_primary_income": 12000000, "monthly_other_income": 3000000, "monthly_essential_expense": 8000000, "monthly_discretionary_expense": 3000000, "monthly_debt_payment": 0, "current_savings": 18000000, "emergency_fund_reserved": 12000000, "goal_name": "Mua xe máy", "goal_amount": 75000000, "goal_horizon_months": 18, "risk_tolerance": "low", "liquidity_need": "high", "expected_income_growth": 0.04, "notes": "Dùng cho stress test chi phí tăng 15%."},
+      "expected_null_fields": []
+    }
+  ]
+}

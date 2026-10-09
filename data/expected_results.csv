@@ -1,0 +1,21 @@
+case_id,case_category,user_id,monthly_primary_income,monthly_other_income,monthly_essential_expense,monthly_discretionary_expense,monthly_debt_payment,current_savings,emergency_fund_reserved,goal_name,goal_amount,goal_horizon_months,risk_tolerance,liquidity_need,expected_income_growth,notes,expected_null_fields
+P001,valid_feasible,P001,8000000,2000000,5000000,2000000,0,15000000,5000000,"Học cao học",100000000,36,low,medium,0.05,,
+P002,valid_feasible,P002,9000000,3000000,6000000,2000000,0,8000000,6000000,"Học chứng chỉ nghề nghiệp",60000000,18,low,high,0.03,,
+P003,valid_feasible,P003,18000000,2000000,10000000,3000000,1000000,30000000,15000000,"Đặt cọc thuê nhà",120000000,24,medium,medium,0.07,,
+P004,valid_feasible,P004,13000000,2000000,7000000,3000000,1000000,20000000,12000000,"Mua laptop",80000000,24,low,high,0.04,,
+P005,valid_feasible,P005,22000000,3000000,12000000,5000000,2000000,50000000,25000000,"Học cao học",200000000,36,medium,low,0.08,,
+P006,valid_infeasible,P006,7000000,1000000,6000000,1500000,0,5000000,5000000,"Mua xe máy",100000000,12,low,high,0,,
+P007,valid_infeasible,P007,15000000,0,10000000,4000000,500000,10000000,8000000,"Học ở nước ngoài",300000000,24,medium,medium,0.03,,
+P008,valid_infeasible,P008,20000000,0,12000000,5000000,2000000,0,0,"Đặt cọc mua nhà",500000000,36,high,low,0.05,,
+P009,missing_information,P009,10000000,2000000,7000000,2000000,0,12000000,8000000,"Du lịch",80000000,,low,medium,0.04,"Chưa xác định thời hạn mục tiêu.",goal_horizon_months
+P010,missing_information,P010,16000000,0,9000000,3000000,1000000,25000000,15000000,"Học chứng chỉ nghề nghiệp",,18,medium,medium,0.05,"Chưa xác định giá trị mục tiêu.",goal_amount
+P011,missing_information,P011,11000000,2000000,7000000,2000000,0,10000000,6000000,"Mua máy tính",50000000,12,,high,0.03,"Chưa xác định mức chấp nhận rủi ro.",risk_tolerance
+P012,contradictory,P012,14000000,1000000,8000000,3000000,0,20000000,30000000,"Học chứng chỉ",70000000,18,low,high,0.04,"Quỹ dự phòng khai báo lớn hơn tiền tiết kiệm hiện có.",
+P013,contradictory,P013,12000000,0,7000000,2000000,0,10000000,5000000,"Tiết kiệm",-50000000,12,medium,medium,0,"Giá trị mục tiêu được nhập là số âm.",
+P014,contradictory,P014,18000000,0,10000000,4000000,0,25000000,15000000,"Du lịch",80000000,0,medium,high,0.02,"Thời hạn mục tiêu được nhập là 0 tháng.",
+P015,negative_cashflow,P015,8000000,1000000,8000000,3000000,1000000,5000000,5000000,"Mua laptop",30000000,12,low,high,0.02,"Tổng chi phí và trả nợ lớn hơn tổng thu nhập.",
+P016,negative_cashflow,P016,14000000,1000000,11000000,5000000,2000000,8000000,8000000,"Học nghề",60000000,24,medium,medium,0.03,"Tổng chi phí và trả nợ lớn hơn tổng thu nhập.",
+P017,out_of_scope,P017,,,,,,50000000,,,,,high,,,"Yêu cầu khuyến nghị mua cổ phiếu FPT hoặc VNM cụ thể.","monthly_primary_income;monthly_other_income;monthly_essential_expense;monthly_discretionary_expense;monthly_debt_payment;emergency_fund_reserved;goal_name;goal_amount;goal_horizon_months;liquidity_need;expected_income_growth"
+P018,out_of_scope,P018,,,,,,20000000,,"Lợi nhuận từ Bitcoin",200000000,6,high,low,,"Yêu cầu mua Bitcoin và bảo đảm lợi nhuận.","monthly_primary_income;monthly_other_income;monthly_essential_expense;monthly_discretionary_expense;monthly_debt_payment;emergency_fund_reserved;expected_income_growth"
+P019,stress_test,P019,18000000,2000000,11000000,3000000,1000000,30000000,20000000,"Học cao học",120000000,24,medium,medium,0.06,"Dùng cho stress test thu nhập giảm 20% trong 3 tháng.",
+P020,stress_test,P020,12000000,3000000,8000000,3000000,0,18000000,12000000,"Mua xe máy",75000000,18,low,high,0.04,"Dùng cho stress test chi phí tăng 15%.",

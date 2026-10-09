@@ -1,0 +1,10 @@
+metric,value,unit,scope,sample_size,status,method
+field_accuracy,1.000000,fraction,structured form baseline,20,measured,"Canonical 15-field profiles parsed through FinancialProfile; 13 extractable fields scored. Identity/schema baseline only, excludes typing errors."
+completeness,1.000000,fraction,structured form baseline,20,measured,"Non-null fields preserved through the form/schema path. Identity/schema baseline only, not LLM performance."
+numeric_groundedness,1.000000,fraction,P019 offline factual explanation,1,measured,"Numeric screen of 33 mentions against actual Python fixture; semantic review separate."
+numeric_hallucination_rate,0.000000,fraction,P019 offline factual explanation,1,measured,"Unsupported numeric mentions divided by all numeric mentions in labeled offline text."
+offline_explanation_time,1.944,ms,P019 fixture; local run,1,measured,"perf_counter; excludes API and network latency."
+offline_pdf_time,33.461,ms,P019 fixture; local run,1,measured,"perf_counter; local reportlab generation."
+precision_required_missing_fields,1.000000,fraction,Person 4 rule validation on Person 1 synthetic cases,20,measured,"Required missing fields only; TP=19, FP=0, FN=0. No LLM extraction."
+recall_required_missing_fields,1.000000,fraction,Person 4 rule validation on Person 1 synthetic cases,20,measured,"Required missing fields only; TP=19, FP=0, FN=0. No LLM extraction."
+f1_required_missing_fields,1.000000,fraction,Person 4 rule validation on Person 1 synthetic cases,20,measured,"Required missing fields only; TP=19, FP=0, FN=0. No LLM extraction."

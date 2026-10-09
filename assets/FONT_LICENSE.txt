@@ -1,0 +1,5 @@
+Liberation Sans (Regular, Bold)
+Liberation Serif (Regular, Bold, Italic)
+Digitized data copyright 2010 Google Corporation with Reserved Font Arimo, Tinos and Cousine.
+Copyright 2012 Red Hat, Inc. with Reserved Font Name Liberation.
+Source: https://github.com/liberationfonts
